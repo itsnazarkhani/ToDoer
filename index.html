@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoer</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- importing Noto Sans font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    </style>
+</head>
+
+<body>
+    <Header id="websiteHeader">
+        <h1>ToDoer</h1>
+        <h3>Don't forget what you wanted to do!</h3>
+    </Header>
+
+    <main id="mainContainer">
+        <form action="/add" method="POST" id="taskForm">
+            <input id="txtBox" type="text" name="task" placeholder="Enter a new task" required>
+            <button id="addTask" type="submit">Add Task</button>
+        </form>
+
+        <section id="taskListSection">
+            <h2>Your Tasks</h2>
+            <ul id="taskList">
+                <!-- Task items will be dynamically inserted here -->
+                <li class="taskItem" data-id="1">
+                    <span class="taskText">Sample Task 1</span>
+                    <div id="taskItemBtnsContainer">
+                        <button class="editBtn">
+                            <img src="assets/icon/edit.svg" alt="Edit Task">
+                        </button>
+                        <button class="doneBtn">
+                            <img src="assets/icon/done.svg" alt="Mark Task as Done">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

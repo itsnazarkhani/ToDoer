@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#websiteHeader {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+#taskForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#txtBox {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addTask {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+#taskListSection {
+    width: 100%;
+}
+
+#taskListSection h2 {
+    margin-bottom: 1rem;
+    align-self: flex-start;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #28a745;
+}
+
+#taskList {
+    list-style-type: none;
+    width: 100%;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#taskText {
+    flex: 1;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+.taskItem button.doneBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.taskItem button.editBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
