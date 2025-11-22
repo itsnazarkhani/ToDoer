@@ -7,7 +7,7 @@ A simple, lightweight to-do list web application built with **HTML**, **CSS**, a
 ## 🚀 Live Demo
 
 Check out the live version here:  
-[itsnazarkhani.github.io/ToDoer](https://itsnazarkhani.github.io/ToDoer) :contentReference[oaicite:0]{index=0}
+[itsnazarkhani.github.io/ToDoer](https://itsnazarkhani.github.io/ToDoer)
 
 ## 📖 Features
 
