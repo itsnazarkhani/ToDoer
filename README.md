@@ -14,6 +14,7 @@ Check out the live version here:
 - Add new tasks  
 - Edit existing tasks  
 - Mark tasks as done (delete)  
+- Tasks are saved using LocalStorage (they stay even after refreshing)
 
 ## 🛠️ Built With
 
